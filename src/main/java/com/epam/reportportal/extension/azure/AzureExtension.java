@@ -120,6 +120,7 @@ public class AzureExtension implements ReportPortalExtensionPoint, DisposableBea
 	private static final Integer DEPTH = 15;
 
 	private final String resourcesDir;
+	
 
 	private final Supplier<Map<String, PluginCommand<?>>> pluginCommandMapping = new MemoizingSupplier<>(this::getCommands);
 
